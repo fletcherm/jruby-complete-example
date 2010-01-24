@@ -32,7 +32,7 @@ end
 namespace :spec do
   desc "Run RSpec against a specific file"
   task :run do
-    raise "You need to specify a spec with spec=" unless ENV["spec"]
+    raise "You need to specify a spec with spec=" if not ENV["spec"]
     sh %+#{JRUBY} -e 'load "#{JRUBY_BIN}/spec"' -- -f specdoc #{ENV["spec"]}+
   end
 end
