@@ -1,4 +1,3 @@
-h2.
-About this project
+h2. About this project
 
 This project provides sample code for my "Running a Ruby application with jruby-complete":http://spin.atomicobject.com/2010/02/01/running-a-ruby-application-with-jruby-complete article. 
